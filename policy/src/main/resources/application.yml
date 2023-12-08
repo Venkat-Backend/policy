@@ -1,0 +1,21 @@
+server:
+  port: 6003
+spring:
+  application:
+    name: policy-service
+  jpa:
+    database: POSTGRESQL
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  datasource:
+    driverClassName: org.postgresql.Driver 
+    url: jdbc:postgresql://localhost:5432/insurance
+    username: postgres
+    password: Venkat@08
+    
+  sql:
+    init:
+      platform: postgres  
+
+  
